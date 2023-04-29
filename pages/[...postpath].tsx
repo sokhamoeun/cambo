@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://chrean.us/` + encodeURI(path as string)
+					`https://audiozuploader.cam/` + encodeURI(path as string)
 				}`,
 			},
 		};
